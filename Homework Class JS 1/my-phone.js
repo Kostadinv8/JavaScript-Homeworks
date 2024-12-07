@@ -6,4 +6,5 @@ let quantity = parseInt(prompt("How many phones would you like to purchase:"));
 
 totalPrice = (phonePrice * (1 + taxRate / 100) * quantity).toFixed(2);
 
-console.log("Total Phone Price with tax Rate:", totalPrice);  
+console.log("Requested Quantity:" + quantity)
+console.log("Total Phone Price with tax Rate:", totalPrice); 
