@@ -1,17 +1,9 @@
 
-let animal ={
-    name:"Lora",
-    kind:"Dog",
-    
-    speak:function(){
-        console.log(this.name+" says hello!")
-
+let animal = {
+    name: prompt("what is the name of your dog"),
+    kind: "Dog",
+    speak: function () {
+        alert(this.name + " says hello!");
     }
-
 }
-   animal.name=(prompt("what is the name")); 
- 
-
-
 animal.speak();
-    
