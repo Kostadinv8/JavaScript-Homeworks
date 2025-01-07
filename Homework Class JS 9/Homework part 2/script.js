@@ -12,6 +12,7 @@ $( document ).ready(function() {
     });
 });
 
+//google fuction
 function isColor(strColor){
     var s = new Option().style;
     s.color = strColor;
